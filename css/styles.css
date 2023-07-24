@@ -133,8 +133,8 @@ img {
   color: var(--ocean, #404bbf);
 }
 
-/* ==============================index-section1========================== */
-.hero {
+/* ==============================index-section1-hero========================== */
+.hero > .container {
   background: var(--navyblue);
   padding: 188px 0;
   background-image: linear-gradient(
@@ -317,13 +317,29 @@ img {
   margin-bottom: 8px;
 }
 .team-subitem {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 .team-icon-list {
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 24px;
+}
+.team-icon-item {
+  width: 40px;
+  height: 40px;
+}
+.team-icon-link {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: var(--iris);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.team-icon-link:hover,
+.team-icon-link:focus {
+  background-color: var(--ocean);
 }
 /* ===========================index-section5-customers============================ */
 
