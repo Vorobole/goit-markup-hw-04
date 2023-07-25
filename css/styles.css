@@ -343,7 +343,7 @@ img {
   background-color: var(--ocean);
 }
 .team-icon {
-  fiil: var(--cloud);
+  fill: var(--cloud);
 }
 /* ===========================index-section5-customers============================ */
 
@@ -372,10 +372,7 @@ img {
   border: 1px solid var(--lightslate, #8e8f99);
   padding: 16px 32px;
 }
-.customers-link {
-}
-.team-icon {
-}
+
 /* =================================portfolio============================ */
 
 .direction {
@@ -519,8 +516,7 @@ img {
 .footer-left {
   margin-right: 120px;
 }
-.socl {
-}
+
 .footer-socl-title {
   margin-bottom: 16px;
   font-weight: 500;
