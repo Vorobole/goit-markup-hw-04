@@ -628,13 +628,17 @@ img {
 .modal-btn-close:hover {
   background-color: #404bbf;
   border: none;
-  fill: #ffffff;
 }
 .modal-btn-close:focus {
   background-color: #404bbf;
   border: none;
-  fill: #ffffff;
 }
 .modal-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-btn-close:hover .modal-icon {
+  fill: #ffffff;
+}
+.modal-btn-close:focus .modal-icon {
+  fill: #ffffff;
 }
